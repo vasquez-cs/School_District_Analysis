@@ -4,7 +4,7 @@ The school board has notified Maria and her supervisor that the students_complet
 
 ### Results:
 
-Following the analysis, I have listed the seven metircs as pairs in the figures below (as "Figure #A" and "Figure #B"). Each of these were run before and after teh updates that were made by making the Thomas High School ninth grade reading and math grades NaNs.
+Following the analysis, I have listed the seven metircs as pairs in the figures below (as "Figure #A" and "Figure #B"). Each of these were run before and after the updates that were made by making the Thomas High School ninth grade reading and math grades NaNs.
 
 ### Summary
 
