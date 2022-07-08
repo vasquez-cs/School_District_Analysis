@@ -14,7 +14,7 @@ Following the analysis, I have listed the seven metircs as pairs in the figures 
 <img src="https://user-images.githubusercontent.com/107224632/177878138-2d8298f0-5740-4c57-9fb6-adb994ea76f5.png" width=80% height=80%><br />
 *Figure 1B: district_summary_df Output after using NaNs for Thomas High School 9th grade math and reading scores*<br />
 
-* In the district_summary_df we can see there was a slight in the post NaNs fix
+* In the district_summary_df we can see there was a slight decrease in the post NaNs for the percentage passing math, reading and overall
   * this is due to not formatting correctly, but if we round the % passing math, reading and overall passing to whole numbers, there wouldn't be a difference as those three values in the post fix would round to the whole number and match the original district_summary_df output
 
 <img src="https://user-images.githubusercontent.com/107224632/177879160-21db6f62-f84c-4527-9a9a-ec60a09c9a7d.png" width=80% height=80%><br />
@@ -45,8 +45,8 @@ Following the analysis, I have listed the seven metircs as pairs in the figures 
 <img src="https://user-images.githubusercontent.com/107224632/177886397-b643d7ae-fa8c-44cb-9414-f0e47d3ca057.png" width=80% height=80%><br />
 *Figure 4B: bottom_5_schools (Renamed) Output after using NaNs for Thomas High School 9th grade math and reading scores*<br />
 
-* I would expect that the original bottom_schools image would have Thomas High School as 2nd from the top based on top_schools
-  * Appears to be a coding issue as the ouput now has Thomas High School at the bottom
+* I would expect that the original bottom_schools image would have Thomas High School as 2nd from the top based on original top_schools output where Thomas was in 13th position
+  * Appears to be a coding issue as both the original and new ouput now Thomas High School towards the bottom indicating both were top schools before and after the NaNs fix.
 
 <img src="https://user-images.githubusercontent.com/107224632/177887424-50194b08-6d44-43b8-93b1-a1f988523134.png" width=80% height=80%><br />
 *Figure 5A: Original spending_summary_df Output*<br />
